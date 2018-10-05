@@ -1,0 +1,30 @@
+<div class="col s12 m6 lesson">
+    <div class="card">
+        <div class="card-image">
+            <img src="<%= lesson.thumb %>">
+            <span class="teal-text lighten-2 card-title center-align"><%= lesson.id %></span>
+        </div>
+        <div class="card-content">
+            <span class="date-badge"><%= lesson.date %><br><%= lesson.time %></span>
+            
+            <p class="black-text class-name-label">Nome da aula</p>
+            <p class="grey-text text-darken-1"><%= lesson.name %></p>
+
+            <p class="black-text module-name-label">Nome do módulo</p>
+            <p class="grey-text text-darken-1"><%= lesson.module %></p>
+        </div>
+        <div class="card-action">
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header grey-text text-darken-1">Material de aula<i class="material-icons right more">expand_more</i></div>
+                    <div class="collapsible-body">
+                        <span class="grey-text text-darken-1">Arquivos:</span>
+                        <% lesson.files.forEach(function(file){ %>
+                            <a class="teal-text text-lighten-2" href="<%= lesson.url %>"><%= file.title %></a>
+                        <% }); %>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

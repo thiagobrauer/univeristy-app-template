@@ -1,0 +1,20 @@
+<div id="calendar">
+  <div class="row">
+
+      <% site.lessons.forEach(function(lesson){ %>
+        <%- include('partials/lesson', {lesson: lesson}); %>
+      <% }); %>
+    
+  </div>
+
+  <%- include('partials/chat') %>
+
+</div>
+
+<div id="elegible">
+
+</div>
+
+<div id="scores">
+
+</div>

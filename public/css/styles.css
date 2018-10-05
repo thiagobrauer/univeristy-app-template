@@ -1,0 +1,115 @@
+.course-name{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  font-size: 18px;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.lesson .date-badge{
+  min-width: 3rem;
+  /* padding: 0 6px; */
+  margin-left: 14px;
+  text-align: right;
+  font-size: 12px;
+  line-height: 16px;
+  height: 22px;
+  color: #757575;
+  float: right;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.lesson .module-name-label {
+  margin-top: 6px!important;
+}
+
+.lesson .card-action .collapsible{
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lesson .card-action .collapsible .collapsible-header{
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  justify-content: flex-end;
+}
+
+.lesson .card-action .collapsible .collapsible-header i{
+  line-height: 18px;
+  margin: 0;
+}
+
+.lesson .card-action .collapsible .collapsible-body{
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  padding: 1rem 0 0 0;
+}
+
+.lesson .card-action .collapsible .collapsible-body a{
+  text-transform: none!important;
+  display: block;
+  margin: 0!important;
+}
+
+.lesson .card .card-image .card-title{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 88px;
+  padding: 0;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chat .badge{
+  border-radius: 20px!important;
+  max-width: 60%;
+  height: auto;
+  line-height: 15px;
+  letter-spacing: .2px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+#chat .input-field{
+  padding-right: 42px;
+}
+
+#chat #send{
+  position: absolute;
+  right: 5px;
+  bottom: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+#chat .badge.sent{
+  border-bottom-right-radius: 0!important;
+  background-color: #8bc34a !important;
+  margin-right: 14px;
+  margin-left: 0;
+  text-align: right;
+}
+
+#chat .badge.received{
+  text-align: left;
+  background-color: #26a69a;
+  border-bottom-left-radius: 0!important;
+  float: left!important;
+}

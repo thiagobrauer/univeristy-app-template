@@ -1,0 +1,37 @@
+<!DOCTYPE html >
+<html lang="pt-br">
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+  </head>
+
+  <body>
+
+    <nav class="teal lighten-2 nav-extended"> 
+      <div class="nav-wrapper">
+        <a style="display: block!important" href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <p class="course-name"><%= site.title %></p>
+      </div>
+  
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent tabs-fixed-width">
+          <li class="tab"><a class="active" href="#calendar">Calendário</a></li>
+          <li class="tab"><a class="" href="#elegible">Eletivas</a></li>
+          <li class="tab"><a class="" href="#scores">Notas e Faltas</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <%- body %>
+
+    <ul id="slide-out" class="sidenav">
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
