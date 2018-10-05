@@ -1,11 +1,12 @@
 {
-  "name": "University App Template",
+  "name": "university-app-template",
   "version": "1.0.0",
   "description": "",
   "main": "site.config.js",
   "scripts": {
     "start": "nanogen start",
-    "build": "nanogen build"
+    "build": "nanogen build",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
