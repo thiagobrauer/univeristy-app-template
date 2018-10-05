@@ -1,3 +1,3 @@
 ## Preview
 
-thiagobrauer.github.io/univeristy-app-template/
+<https://thiagobrauer.github.io/univeristy-app-template/>
